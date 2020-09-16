@@ -27,6 +27,11 @@ a {
   font-size: 0.8rem;
 }
 
+footer p {
+  margin: 0.5rem 0 0 0;
+  line-height: 18px;
+}
+
 .register-text p {
   margin: 0 0 0.3rem 0;
 }
@@ -62,6 +67,19 @@ a {
 .logo-and-links-nav .external-links a i {
   font-size: 1.2rem;
   margin-right: 0.2rem;
+}
+
+
+footer .footer-links-nav a {
+  color: #505050;
+}
+
+footer .footer-links-nav a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-links-nav a:nth-child(2) {
+  margin: 0 0.5rem;
 }
 
 .logo-and-links-nav .external-links a:nth-child(2) {
@@ -154,21 +172,4 @@ footer {
   text-align: center;
   padding: 2rem .25rem;
   color: #505050;
-}
-
-footer p {
-  margin: 0.5rem 0 0 0;
-  line-height: 18px;
-}
-
-footer .footer-links-nav a {
-  color: #505050;
-}
-
-footer .footer-links-nav a:hover {
-  text-decoration: underline;
-}
-
-footer .footer-links-nav a:nth-child(2) {
-  margin: 0 0.5rem;
 }
