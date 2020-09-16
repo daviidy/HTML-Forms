@@ -1,46 +1,42 @@
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: .5rem;
-  background-color: #eceef1
+  background-color: #eceef1;
 }
-*{
+* {
   box-sizing: border-box;
 }
 
-header{
-  /* margin-top: .3rem; */
-}
-
-a{
+a {
   text-decoration: none;
   cursor: pointer;
   color: #0077C5;
 }
 
-a{
+a {
   text-decoration: none
 }
 
 /* Already have an account? section */
-.register-links{
+.register-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.register-text{
+.register-text {
   margin-right: 1rem;
   font-size: .8rem;
 }
 
 
-.register-text p{
+.register-text p {
   margin: 0 0 0.3rem 0;
 }
 
 
-.blue-button{
+.blue-button {
   background-color: #0077C5;
   color: #fff;
   padding: .7rem 1rem;
@@ -50,42 +46,42 @@ a{
 }
 
 /* logo and external links */
-.logo-and-links-nav{
+.logo-and-links-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 2rem
 }
-.logo-and-links-nav .external-links{
+.logo-and-links-nav .external-links {
   margin-top: .8rem
 }
-.logo-and-links-nav .external-links a{
+.logo-and-links-nav .external-links a {
   color: #535455;
   font-weight: 300;
   display: inline-flex;
   align-items: center;
 }
-.logo-and-links-nav .external-links a i{
+.logo-and-links-nav .external-links a i {
   font-size: 1.2rem;
   margin-right: .2rem
 }
-.logo-and-links-nav .external-links a:nth-child(2){
+.logo-and-links-nav .external-links a:nth-child(2) {
   margin: 0 .5rem
 }
-.logo-and-links-nav .external-links a:first-child i{
+.logo-and-links-nav .external-links a:first-child i {
   color: #049d86
 }
-.logo-and-links-nav .external-links a:nth-child(2) i{
+.logo-and-links-nav .external-links a:nth-child(2) i {
   color: #0ea338
 }
-.logo-and-links-nav .external-links a:nth-child(3) i{
+.logo-and-links-nav .external-links a:nth-child(3) i {
   color: #ed1f12
 }
 
 
 /*Form*/
 
-.card{
+.card {
   width: 450px;
   margin: auto;
   background-color: #fff;
@@ -94,20 +90,20 @@ a{
   text-align: center;
 }
 
-.card-body{
+.card-body {
   padding: 2rem;
 }
 
-.form-title{
+.form-title {
   font-size: 1.8rem;
   font-weight: 100;
 }
 
-.form-description{
+.form-description {
   font-size: .8rem;
 }
 
-input{
+input {
   width: 100%;
   border-radius: .2rem;
   outline: none;
@@ -116,7 +112,7 @@ input{
   margin-top: .5rem;
 }
 
-fieldset{
+fieldset {
   border: 0;
   display: flex;
   flex-direction: column;
@@ -124,12 +120,12 @@ fieldset{
   margin-bottom: 2rem;
 }
 
-.span-input{
+.span-input {
   font-size: .67rem;
   margin-top: .4rem;
 }
 
-.py-large{
+.py-large {
   margin: auto;
   width: 70%;
   padding-top: 1rem;
@@ -137,13 +133,13 @@ fieldset{
   font-size: 1rem;
 }
 
-.terms{
+.terms {
   font-size: .8rem;
   font-style: italic;
   font-weight: 300;
 }
 
-.card-footer{
+.card-footer {
   background-color: #eceef1;
   padding: 2rem;
   color: #757575;
@@ -152,23 +148,23 @@ fieldset{
 }
 
 /* Footer */
-footer{
+footer {
   font-size: 12px;
   font-weight: lighter;
   text-align: center;
   padding: 2rem .25rem;
   color: #505050
 }
-.footer-links-nav a{
-  color: #505050
-}
-.footer-links-nav a:hover{
-  text-decoration: underline;
-}
-.footer-links-nav a:nth-child(2){
-  margin: 0 .5rem;
-}
-footer p{
+footer p {
   margin: .5rem 0 0 0;
   line-height: 18px
+}
+.footer-links-nav a {
+  color: #505050
+}
+.footer-links-nav a:hover {
+  text-decoration: underline;
+}
+.footer-links-nav a:nth-child(2) {
+  margin: 0 .5rem;
 }
