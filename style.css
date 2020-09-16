@@ -13,6 +13,12 @@ header{
 }
 
 a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #0077C5;
+}
+
+a{
   text-decoration: none
 }
 
@@ -28,18 +34,13 @@ a{
   font-size: .8rem;
 }
 
-.register-text a{
-  text-decoration: none;
-  cursor: pointer;
-  color: #0077C5;
-}
 
 .register-text p{
   margin: 0 0 0.3rem 0;
 }
 
 
-.sign-in-button{
+.blue-button{
   background-color: #0077C5;
   color: #fff;
   padding: .7rem 1rem;
@@ -79,4 +80,73 @@ a{
 }
 .logo-and-links-nav .external-links a:nth-child(3) i{
   color: #ed1f12
+}
+
+
+/*Form*/
+
+.card{
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.card-body{
+  padding: 2rem;
+}
+
+.form-title{
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.form-description{
+  font-size: .8rem;
+}
+
+input{
+  width: 100%;
+  border-radius: .2rem;
+  outline: none;
+  border: 1px solid #c7c7c7;
+  padding: .5rem;
+  margin-top: .5rem;
+}
+
+fieldset{
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.span-input{
+  font-size: .67rem;
+  margin-top: .4rem;
+}
+
+.py-large{
+  margin: auto;
+  width: 70%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.terms{
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-footer{
+  background-color: #eceef1;
+  padding: 2rem;
+  color: #757575;
+  font-size: .8rem;
+  font-weight: 300;
 }
