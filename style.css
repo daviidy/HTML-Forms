@@ -1,0 +1,43 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: .5rem;
+}
+*{
+  box-sizing: border-box;
+}
+
+header{
+  margin-top: 1rem;
+}
+
+.register-links{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.register-text{
+  margin-right: 1rem;
+  font-size: .8rem;
+}
+
+.register-text a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #0077C5;
+}
+
+.register-text p{
+  margin: 0 0 0.3rem 0;
+}
+
+
+.sign-in-button{
+  background-color: #0077C5;
+  color: #fff;
+  padding: .7rem 1rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: 1px solid #000;
+}
