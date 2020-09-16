@@ -2,15 +2,21 @@ body{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: .5rem;
+  background-color: #eceef1
 }
 *{
   box-sizing: border-box;
 }
 
 header{
-  margin-top: 1rem;
+  /* margin-top: .3rem; */
 }
 
+a{
+  text-decoration: none
+}
+
+/* Already have an account? section */
 .register-links{
   display: flex;
   justify-content: flex-end;
@@ -38,6 +44,39 @@ header{
   color: #fff;
   padding: .7rem 1rem;
   text-align: center;
-  border-radius: .5rem;
+  border-radius: .2rem;
   border: 1px solid #000;
+}
+
+/* logo and external links */
+.logo-and-links-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem
+}
+.logo-and-links-nav .external-links{
+  margin-top: .8rem
+}
+.logo-and-links-nav .external-links a{
+  color: #535455;
+  font-weight: 300;
+  display: inline-flex;
+  align-items: center;
+}
+.logo-and-links-nav .external-links a i{
+  font-size: 1.2rem;
+  margin-right: .2rem
+}
+.logo-and-links-nav .external-links a:nth-child(2){
+  margin: 0 .5rem
+}
+.logo-and-links-nav .external-links a:first-child i{
+  color: #049d86
+}
+.logo-and-links-nav .external-links a:nth-child(2) i{
+  color: #0ea338
+}
+.logo-and-links-nav .external-links a:nth-child(3) i{
+  color: #ed1f12
 }
