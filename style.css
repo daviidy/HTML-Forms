@@ -57,6 +57,10 @@ footer p {
   margin-top: 0.8rem;
 }
 
+footer .footer-links-nav a {
+  color: #505050;
+}
+
 .logo-and-links-nav .external-links a {
   color: #535455;
   font-weight: 300;
@@ -67,11 +71,6 @@ footer p {
 .logo-and-links-nav .external-links a i {
   font-size: 1.2rem;
   margin-right: 0.2rem;
-}
-
-
-footer .footer-links-nav a {
-  color: #505050;
 }
 
 footer .footer-links-nav a:hover {
